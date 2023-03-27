@@ -5,14 +5,13 @@ This is a command line application to match applicants with qualifying loans.
 
 Example:
     $ python app.py
-"""
-import csv 
+""" 
 import sys
 import fire
 import questionary
 from pathlib import Path
 
-from qualifier.utils.fileio import load_csv
+from qualifier.utils.fileio import load_csv, save_csv
 
 from qualifier.utils.calculators import (
     calculate_monthly_debt_ratio,
@@ -23,6 +22,7 @@ from qualifier.filters.max_loan_size import filter_max_loan_size
 from qualifier.filters.credit_score import filter_credit_score
 from qualifier.filters.debt_to_income import filter_debt_to_income
 from qualifier.filters.loan_to_value import filter_loan_to_value
+from qualifier.utils.fileio import save_csv
 
 
 def load_bank_data():
