@@ -110,38 +110,15 @@ def save_qualifying_loans(qualifying_loans):
         qualifying_loans (list of lists): The qualifying bank loans.
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
-def save_csv(qualifying_loans):
-    save_file = ("qualifying_loans")
-
-    """
-    Prompts user to save a CSV file of qualifying loans.
-
-    Args:
-        qualifying_loan (list of list): The list of qalifying loans to save as a CSV file.
-    """
-    if len(qualifying_loans) == 2:
-        print("There are no qualifying loans to save.")
+    if not qualifying_loans:
+        print("There are no loans available.")
         return
     
-    safe_file = input("Do you want to save the results as a CSV file? (y/n):")
-    if save_file.lower() == 'n':
-        return
-    
-    file_path = input("Enter the file path to save the CSV file (e.g. 'output/qualifying_loan.csv'):")
-    headers = ["Lender", "Loan Amount", "Interest Rate", "Loan Terms", "Monthly Payment", "Total Payment" ]
+    output_path = questionary.text("Enter the output file path for the CSV file:").ask()
+    output_path = Path(output_path)
 
-    try:
-        with open(file_path, 'w', newline='') as csvfile:
-            csvwriter = csv.writer(csvfile)
-            csvwriter.writerow(headers)
-            csvwriter.writerows(qualifying_loans)
-            print(f"Qualifying loans have been saved to {file_path}")
-    except IOError:
-        print(f"Error: Could not open file {file_path} for writting.")
-
-qualifying_loans = []
-save_csv(qualifying_loans)
-
+    save_csv(qualifying_loans, output_path)
+    print(f"Qualifying loans saved to {output_path}")
 
 
 def run():

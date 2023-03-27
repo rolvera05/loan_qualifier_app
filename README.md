@@ -1,6 +1,8 @@
-# Project Title
+# Qualifying Loans
 
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
+Filtering through loan applications can be a difficult task. It requires countless hours to to review and determine whether the applicant qualifies for a loan or not. The work is repetitive and would be more efficiently excuted if the task could be automated. 
+
+That is where this project comes in. We have created a loan qualifier application system that uses machine learning algorithms to analyze the loan applications for you. The system will account for varies factors such as the applicants credit score, income, DTI, and LTV, and provid recommendations based on these factors. 
 
 ---
 
