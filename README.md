@@ -14,14 +14,16 @@ The projects main contribution is that it streamlines the loan qualificaion proc
 Programming langauages: The programing languages used in this project are python. Running python 3.9
 Libraries: The specific libraries used for this project are fire, csv, sys, and questionary. 
 Operating systems: This project can be ran through VS Code and Terminal or iTerm on Mac 
+
 ---
 
 ## Installation Guide
 
 Make sure to install ```csv, fire, and questionary to run the application.```
-[csv](pip install fire)
-[fire](pip install fire)
-[questionary](pip install questionary)
+
+pip install fire
+pip install fire
+pip install questionary
 
 
 ## Usage
