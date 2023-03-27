@@ -21,9 +21,9 @@ Operating systems: This project can be ran through VS Code and Terminal or iTerm
 
 Make sure to install ```csv, fire, and questionary to run the application.```
 
-pip install fire
-pip install fire
-pip install questionary
+* [fire](https://github.com/google/python-fire) - For the command line interface, help page, and entrypoint.
+
+* [questionary](https://github.com/tmbo/questionary) - For interactive user prompts and dialogs
 
 
 ## Usage
