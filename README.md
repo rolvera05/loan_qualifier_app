@@ -15,15 +15,18 @@ Programming langauages: The programing languages used in this project are python
 Libraries: The specific libraries used for this project are fire, csv, sys, and questionary. 
 Operating systems: This project can be ran through VS Code and Terminal or iTerm on Mac 
 
----
-
-## Installation Guide
-
-Make sure to install ```csv, fire, and questionary to run the application.```
-
 * [fire](https://github.com/google/python-fire) - For the command line interface, help page, and entrypoint.
 
 * [questionary](https://github.com/tmbo/questionary) - For interactive user prompts and dialogs
+---
+
+## Installation Guide
+Make sure to install csv, fire, and questionary to run the application
+```python
+  pip install fire
+  pip install questionary
+  pip install csv
+```
 
 
 ## Usage
