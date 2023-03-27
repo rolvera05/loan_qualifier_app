@@ -31,7 +31,13 @@ Make sure to install csv, fire, and questionary to run the application
 
 ## Usage
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+To use the program clone the repository and run the **app.py** with:
+```python
+python app.py
+```
+After you launch your first question this is what you should see:
+
+![Loan Qualifier Prompts](images/image2.png)
 
 ---
 
