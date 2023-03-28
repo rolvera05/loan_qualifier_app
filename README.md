@@ -43,10 +43,10 @@ After you launch your first question this is what you should see:
 
 ## Contributors
 
-In this section, list all the people who contribute to this project. You might want recruiters or potential collaborators to reach you, so include your contact email and, optionally, your LinkedIn or Twitter profile.
+This project was made possible by Rosalinda Olvera through the FinTech Bootcamp and instructor Firas Obeid.
 
 ---
 
 ## License
 
-When you share a project on a repository, especially a public one, it's important to choose the right license to specify what others can and can't with your source code and files. Use this section to include the license you want to use.
+Available to anyone. 
